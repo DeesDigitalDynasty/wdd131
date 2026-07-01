@@ -7,20 +7,100 @@
     <meta name="description"
       content="WDD 131 – Dynamic Web Fundamentals | Oludayo Oluboyede | HTML, CSS, JavaScript, Web Development Portfolio">
     <meta name="author" content="Oludayo Oluboyede">
+    
     <title>WDD 131 – Dynamic Web Fundamentals – Oludayo Oluboyede</title>
+
+     <link rel="stylesheet" href="styles/base.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
-    <header>
+    <body>
 
-    </header>
+<header>
+    <span id="course-title">
+        WDD 131 – Dynamic Web Fundamentals
+    </span>
 
-    <main>
+    <nav>
+        <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+        <a href="https://byupw.instructure.com/" target="_blank">Canvas</a>
+        <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7" target="_blank">
+            Favorite Scripture
+        </a>
+        <a href="#">Final Project</a>
+    </nav>
+</header>
 
-    </main>
+<main>
+    <h1>Oludayo Oluboyede</h1>
 
-    <footer>
-        <p> &copy; 2026 🆗 Oludayo Oluboyede 🆗 Oyo, Nigeria</p>
+    <div class="cards-container">
 
-    </footer>
+        <section class="card">
+            <h2>About Me</h2>
+
+            <div class="about-content">
+                <div>
+                    <p>
+                        My name is Oludayo and I am a full stack web developer
+                        from Ibadan city, Nigeria. I enjoy building web applications and
+                        expanding my skills in JavaScript, React, Node.js,
+                        and modern web technologies. i love cars and have a Dog named Finn.
+                    </p>
+                </div>
+
+                <img src="images/profile.webp"
+                     alt="Oludayo Oluboyede">
+            </div>
+
+            <h3>Oyo State, Nigeria</h3>
+
+            <div class="country-info">
+                <figure>
+                    <img src="images/nigeria.webp"
+                         alt="Official Flag of Nigeria">
+
+                    <figcaption>
+                        Official Flag of Nigeria
+                    </figcaption>
+                </figure>
+
+                <p>
+                    Nigeria is the most populous country in Africa and is
+                    known for its rich culture, music, technology ecosystem,
+                    and entrepreneurship.
+                </p>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Web Dev Resources</h2>
+
+            <ul>
+                <li><a href="https://dev.to/">Dev.to Community</a></li>
+                <li><a href="https://developer.mozilla.org/">MDN Web Docs</a></li>
+                <li><a href="https://css-tricks.com/">CSS Tricks</a></li>
+                <li><a href="https://www.w3schools.com/">W3 Schools</a></li>
+                <li><a href="https://www.udemy.com/">Udemy</a></li>
+            </ul>
+        </section>
+
+    </div>
+</main>
+
+<footer>
+    <p>
+        &copy;
+        <span id="currentyear"></span>
+        🌺 Oludayo Oluboyede 🌺 Nigeria
+    </p>
+
+    <p id="lastModified"></p>
+</footer>
 </body>
 </html>
