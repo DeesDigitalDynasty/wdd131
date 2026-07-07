@@ -26,6 +26,28 @@ padding:1rem;
 
 }
 
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+nav.hide {
+    display: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a:hover {
+    background: #68308d;
+}
+
+
+
 #menu{
 
 background:none;
@@ -36,7 +58,7 @@ cursor:pointer;
 
 }
 
-.navigation{
+/* .navigation{
 
 display:none;
 flex-direction:column;
@@ -62,7 +84,7 @@ text-align:center;
 
 background:#68308d;
 
-}
+} */
 
 main{
 

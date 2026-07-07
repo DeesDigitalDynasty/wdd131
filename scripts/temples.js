@@ -1,25 +1,15 @@
 const menuButton = document.querySelector("#menu");
-const navigation = document.querySelector(".navigation");
+const nav = document.querySelector("nav");
 
 menuButton.addEventListener("click", () => {
+    nav.classList.toggle("hide");
 
-    navigation.classList.toggle("open");
-
-    if (navigation.classList.contains("open")) {
-
-        menuButton.textContent = "✕";
-
-    } else {
-
-        menuButton.textContent = "☰";
-
-    }
-
+    menuButton.textContent =
+        nav.classList.contains("hide") ? "☰" : "✕";
 });
 
-
 document.querySelector("#currentyear").textContent =
-new Date().getFullYear();
+    new Date().getFullYear();
 
 document.querySelector("#lastModified").textContent =
-`Last Modification: ${document.lastModified}`;
+    `Last Modification: ${document.lastModified}`;
