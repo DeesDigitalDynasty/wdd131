@@ -110,7 +110,8 @@ gap:2rem;
 }
 
 figure{
-
+    
+width: 100%;
 text-align:center;
 
 }
@@ -118,9 +119,11 @@ text-align:center;
 figure img{
 
 width:100%;
-max-width:350px;
+height: auto;
+display: block;
 
 }
+
 
 footer{
 
