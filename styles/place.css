@@ -19,7 +19,6 @@
     box-sizing: border-box;
 }
 
-/* BODY */
 
 body {
     font-family: var(--body-font);
@@ -28,7 +27,6 @@ body {
     line-height: 1.6;
 }
 
-/* HEADER */
 
 header {
     background: var(--primary-color);
@@ -53,7 +51,6 @@ picture img {
     height: auto;
 }
 
-/* MAIN */
 
 main {
     max-width: 1200px;
@@ -71,7 +68,6 @@ main {
     box-shadow: var(--shadow);
 }
 
-/* HEADINGS */
 
 .card h2 {
     text-align: center;
@@ -133,13 +129,9 @@ a {
 
 img {
     max-width: 100%;
+     display: block;
 }
 
-/* ACCESSIBILITY */
-
-img {
-    display: block;
-}
 
 strong {
     font-weight: 700;
