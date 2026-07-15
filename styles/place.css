@@ -1,0 +1,165 @@
+:root {
+    --primary-color: #008751;
+    --secondary-color: #ffffff;
+    --accent-color: #0d5c3d;
+    --text-color: #222222;
+    --background-color: #f4f4f4;
+    --card-background: #ffffff;
+    --shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    --border-radius: 10px;
+
+    --heading-font: "Inter", sans-serif;
+    --body-font: "Inter", sans-serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+
+body {
+    font-family: var(--body-font);
+    background: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+/* HEADER */
+
+header {
+    background: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 1.25rem;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
+picture {
+    display: block;
+}
+
+picture img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* MAIN */
+
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.card {
+    background: var(--card-background);
+    margin: 1.5rem;
+    padding: 1.5rem;
+
+    border-radius: var(--border-radius);
+
+    box-shadow: var(--shadow);
+}
+
+/* HEADINGS */
+
+.card h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+    font-size: 1.6rem;
+}
+
+
+.card ul {
+    list-style: none;
+}
+
+.card li {
+    margin: .8rem 0;
+}
+
+.card strong {
+    color: var(--accent-color);
+}
+
+
+.weather-icon {
+    display: block;
+
+    margin: 0 auto 1rem auto;
+
+    width: 60px;
+
+    height: auto;
+}
+
+
+footer {
+    margin-top: 2rem;
+
+    background: var(--primary-color);
+
+    color: white;
+
+    text-align: center;
+
+    padding: 1.5rem;
+}
+
+footer p {   
+    
+    margin: .4rem;
+}
+
+#lastModified {
+    color: #ffe600;
+}
+
+
+a {
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* ACCESSIBILITY */
+
+img {
+    display: block;
+}
+
+strong {
+    font-weight: 700;
+}
+
+
+@media (max-width: 500px) {
+
+    .card {
+
+        margin: 1rem;
+
+        padding: 1rem;
+
+    }
+
+    header h1 {
+
+        font-size: 1.7rem;
+
+    }
+
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+      content="WDD 131  Dynamic Web Fundamentals Temple Album by Oludayo Oluboyede. Explore Nigeria through a responsive webpage featuring country information, weather details, and responsive images.">
+
+    <meta name="author" content="Oludayo Oluboyede">
+
+       
+    <title> Place Page | Nigeria | WDD 131 – Dynamic Web Fundamentals </title>
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+
+    <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+    <header>
+        
+        <h1>Nigeria</h1>
+
+    </header>
+
+
+    <main>
+
+    <picture>
+
+        <source
+            srcset="images/nigeria-small.webp"
+            media="(max-width: 768px)">
+
+        <img
+            src="images/nigeria-large.webp"
+            alt="Beautiful landscape of Nigeria"
+            width="1400"
+            height="700"
+            fetchpriority="high">
+
+    </picture>
+
+    <section class="card data">
+
+        <h2>Data</h2>
+
+        <ul>
+
+            <li><strong>Area:</strong> 923,768 km²</li>
+
+            <li><strong>Population:</strong> 223 Million</li>
+
+            <li><strong>Capital:</strong> Abuja</li>
+
+            <li><strong>Languages:</strong> English</li>
+
+            <li><strong>Currency:</strong> Nigerian Naira (₦)</li>
+
+            <li><strong>Time Zone:</strong> UTC +1</li>
+
+            <li><strong>Calling Code:</strong> +234</li>
+
+            <li><strong>Internet TLD:</strong> .ng</li>
+
+        </ul>
+
+    </section>
+
+    <section class="card weather">
+
+        <h2>Weather</h2>
+
+        <img
+            class="weather-icon"
+            src="images/weather.svg"
+            alt="Sunny Weather Icon"
+            width="60"
+            height="60">
+
+        <ul>
+
+            <li><strong>Temperature:</strong> <span id="temp">31</span>°C</li>
+
+            <li><strong>Conditions:</strong> Sunny</li>
+
+            <li><strong>Wind:</strong> <span id="wind">12</span> km/h</li>
+
+            <li><strong>Wind Chill:</strong>
+
+                <span id="windchill"></span>
+
+            </li>
+
+        </ul>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>
+        &copy;
+        <span id="currentyear"></span>
+         🌺 Oludayo Oluboyede 🌺 Nigeria
+    </p>
+
+    <p id="lastModified"></p>
+</footer>
+
+</body>
