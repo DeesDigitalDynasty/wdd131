@@ -1,0 +1,230 @@
+:root{
+
+    --primary:#0B6E4F;
+    --secondary:#111827;
+    --accent:#F97316;
+    --light:#F9FAFB;
+    --white:#FFFFFF;
+    --text:#222222;
+
+}
+
+/* ---------- RESET ---------- */
+
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+/* ---------- BODY ---------- */
+
+body{
+
+    font-family:'Outfit',sans-serif;
+
+    background:var(--light);
+
+    color:var(--text);
+
+    line-height:1.7;
+
+}
+
+/* ---------- HEADER ---------- */
+
+header{
+
+    background:var(--primary);
+
+    color:white;
+
+    text-align:center;
+
+    padding:3rem 1rem;
+
+}
+
+.logo{
+
+    font-size:3rem;
+
+    margin-bottom:.5rem;
+
+}
+
+header h1{
+
+    font-size:2.5rem;
+
+    margin-bottom:.5rem;
+
+}
+
+.subtitle{
+
+    font-size:1.1rem;
+
+    opacity:.9;
+
+}
+
+/* ---------- MAIN ---------- */
+
+main{
+
+    max-width:1100px;
+
+    margin:auto;
+
+    padding:2rem 1rem;
+
+}
+
+/* ---------- CARDS ---------- */
+
+.card{
+
+    background:white;
+
+    border-radius:12px;
+
+    padding:2rem;
+
+    margin-bottom:2rem;
+
+    box-shadow:0 6px 16px rgba(0,0,0,.08);
+
+}
+
+.card h2{
+
+    color:var(--primary);
+
+    margin-bottom:1rem;
+
+    border-bottom:3px solid var(--accent);
+
+    display:inline-block;
+
+    padding-bottom:.3rem;
+
+}
+
+/* ---------- COLORS ---------- */
+
+.colors{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+    gap:1rem;
+
+    margin-top:1.5rem;
+
+}
+
+.color-box{
+
+    border-radius:10px;
+
+    text-align:center;
+
+    padding:1.5rem;
+
+    color:white;
+
+}
+
+.primary{
+
+    background:#0B6E4F;
+
+}
+
+.dark{
+
+    background:#111827;
+
+}
+
+.accent{
+
+    background:#F97316;
+
+}
+
+.light{
+
+    background:#F9FAFB;
+
+    color:#222;
+
+    border:1px solid #ddd;
+
+}
+
+/* ---------- TYPOGRAPHY ---------- */
+
+.sample-heading{
+
+    font-size:2rem;
+
+    color:var(--primary);
+
+    margin-bottom:1rem;
+
+}
+
+/* ---------- WIREFRAMES ---------- */
+
+.wireframes{
+
+    display:grid;
+
+    grid-template-columns:1fr;
+
+    gap:2rem;
+
+    margin-top:1.5rem;
+
+}
+
+.wireframes img{
+
+    width:100%;
+
+    border:2px solid #ddd;
+
+    border-radius:10px;
+
+}
+
+/* ---------- FOOTER ---------- */
+
+footer{
+
+    background:var(--secondary);
+
+    color:white;
+
+    text-align:center;
+
+    padding:2rem;
+
+}
+
+/* ---------- TABLET ---------- */
+
+@media (min-width:768px){
+
+.wireframes{
+
+grid-template-columns:1fr 1fr;
+
+}
+
+}

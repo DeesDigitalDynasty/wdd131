@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Website planning document for Apex Drift Society, the WDD131 project.">
+    <meta name="author" content="Oludayo Oluboyede">
+
+    <title>Apex Drift Society | Site Plan</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/siteplan.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        🏁
+    </div>
+
+    <h1>Apex Drift Society</h1>
+
+    <p class="subtitle">
+        WDD131 Final Project Website Planning Document
+    </p>
+
+</header>
+
+<main>
+
+<section class="card">
+
+<h2>Site Name</h2>
+
+<p><strong>Apex Drift Society</strong></p>
+
+<p>
+The name "Apex Drift Society" represents a community centered around the art and culture of drifting.
+The word <em>Apex</em> refers to the ideal point of a racing corner, symbolizing precision, control, and
+performance. The word <em>Society</em> reflects a welcoming community for both experienced enthusiasts
+and newcomers interested in drifting.
+</p>
+
+<p><strong>Optional Domain:</strong> apexdriftsociety.com</p>
+
+</section>
+
+
+<section class="card">
+
+<h2>Site Purpose</h2>
+
+<p>
+
+Apex Drift Society is an informational website dedicated to educating visitors about professional
+drifting, legendary drift cars, famous drivers, and major drifting events around the world.
+The website will also provide beginner-friendly resources, featured vehicles, event information,
+and interactive features such as favorite car selection and search functionality.
+
+</p>
+
+</section>
+
+
+<section class="card">
+
+<h2>Target Audience Scenarios</h2>
+
+<ul>
+
+<li>Which drift car is the best choice for beginners?</li>
+
+<li>Where can I find information about upcoming drift competitions?</li>
+
+<li>Which professional drift drivers should I know about?</li>
+
+<li>How can I save my favorite drift cars while browsing the website?</li>
+
+</ul>
+
+</section>
+
+
+<section class="card">
+
+<h2>Color Schema</h2>
+
+<div class="colors">
+
+<div class="color-box primary">
+<h3>Racing Green</h3>
+<p>#0B6E4F</p>
+<p>Header, Navigation, Buttons</p>
+</div>
+
+<div class="color-box dark">
+<h3>Charcoal Black</h3>
+<p>#111827</p>
+<p>Main Background</p>
+</div>
+
+<div class="color-box accent">
+<h3>Burnt Orange</h3>
+<p>#F97316</p>
+<p>Hover Effects & Highlights</p>
+</div>
+
+<div class="color-box light">
+<h3>White Smoke</h3>
+<p>#F9FAFB</p>
+<p>Cards & Text Backgrounds</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section class="card">
+
+<h2>Typography</h2>
+
+<h3 class="sample-heading">
+Outfit — Heading Example
+</h3>
+
+<p>
+
+The website will use the Google Font <strong>Outfit</strong> for headings, navigation,
+buttons, paragraphs, and general content. Using a single font family improves performance,
+maintains consistency, and supports Lighthouse optimization.
+
+</p>
+
+</section>
+
+
+<section class="card">
+
+<h2>Wireframes</h2>
+
+<p>
+
+The following wireframes illustrate the planned layout of the website in both mobile
+and desktop views.
+
+</p>
+
+<div class="wireframes">
+
+<div>
+
+<h3>Mobile View</h3>
+
+<img src="images/wireframe-mobile.svg"
+     alt="Mobile wireframe for Apex Drift Society">
+
+</div>
+
+<div>
+
+<h3>Desktop View</h3>
+
+<img src="images/wireframe-desktop.svg"
+     alt="Desktop wireframe for Apex Drift Society">
+
+</div>
+
+</div>
+
+</section>
+
+</main>
+
+
+<footer>
+
+<p>
+
+© <span id="year"></span> 🌸 Oludayo Oluboyede 🌸 Nigeria
+
+</p>
+
+<p id="lastModified"></p>
+
+</footer>
+
+<script>
+
+document.getElementById("year").textContent =
+new Date().getFullYear();
+
+document.getElementById("lastModified").textContent =
+`Last Modified: ${document.lastModified}`;
+
+</script>
+
+</body>
+</html>
