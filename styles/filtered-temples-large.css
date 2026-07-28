@@ -1,0 +1,68 @@
+/* ==========================================
+   Tablet View
+========================================== */
+
+@media screen and (min-width: 640px) {
+
+    /* Hide Hamburger */
+    #menu {
+        display: none;
+    }
+
+    /* Horizontal Navigation */
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 0;
+    }
+
+    /* Make sure nav is always visible */
+    nav.hide {
+        display: flex;
+    }
+
+    nav a {
+        flex: 1;
+        padding: 1rem;
+    }
+
+    /* Two-column gallery */
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+/* ==========================================
+   Desktop View
+========================================== */
+
+@media screen and (min-width: 960px) {
+
+    main {
+        max-width: 1200px;
+    }
+
+    /* Three-column gallery */
+    .gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* Slightly larger heading */
+    .top-bar h1 {
+        font-size: 1.8rem;
+    }
+
+    .card h3 {
+        font-size: 1.3rem;
+    }
+
+    .card p {
+        font-size: 1rem;
+    }
+
+    .card:hover {
+        transform: translateY(-6px);
+    }
+}
