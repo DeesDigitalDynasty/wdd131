@@ -23,7 +23,7 @@ body {
 
 header {
     background: var(--primary);
-    color: white;
+    color: var(--card);
 }
 
 .top-bar {
@@ -42,7 +42,7 @@ header {
 #menu {
     background: none;
     border: none;
-    color: white;
+    color: var(--card);
     font-size: 2rem;
     cursor: pointer;
 }
@@ -58,7 +58,7 @@ nav.hide {
 }
 
 nav a {
-    color: white;
+    color: var(--card);
     text-decoration: none;
     text-align: center;
     padding: 1rem;
@@ -108,7 +108,7 @@ main h2 {
 
 .card h3 {
     background: var(--primary);
-    color: white;
+    color: var(--card);
     padding: .9rem;
     font-size: 1.2rem;
 }
@@ -141,7 +141,7 @@ footer {
 
     background: var(--primary);
 
-    color: white;
+    color: var(--card);
 
     text-align: center;
 
