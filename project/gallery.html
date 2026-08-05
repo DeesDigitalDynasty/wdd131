@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drift Gallery | Apex Drift Society</title>
+    <meta name="description" content="High-resolution image gallery showcasing professional drift cars, track events, and tandem drift action.">
+    <meta name="author" content="Oludayo Oluboyede">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script src="scripts/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo-text">Apex Drift <span>Society</span></a>
+            <button id="hamburger-btn" aria-label="Toggle Navigation Menu" aria-expanded="false">☰</button>
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="cars.html">Cars</a></li>
+                    <li><a href="learn.html">Learn</a></li>
+                    <li><a href="gallery.html" class="active">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="references.html">References</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h1 class="page-title">Action Gallery</h1>
+
+        <div class="gallery-grid grid-container">
+            <figure class="card">
+                <img src="images/hero-small.webp" alt="Drifting tandem on track" loading="lazy" width="300" height="200">
+                <figcaption class="card-body">
+                    <p><strong>Tandem Battle</strong></p>
+                </figcaption>
+            </figure>
+
+            <figure class="card">
+                <img src="images/gallery9.webp" alt="Smoking rear tires during drift" loading="lazy" width="300" height="200">
+                <figcaption class="card-body">
+                    <p><strong> High Speed Entry</strong></p>
+                </figcaption>
+            </figure>
+
+            <figure class="card">
+                <img src="images/gallery7.webp" alt="Turbo charger" loading="lazy" width="300" height="200">
+                <figcaption class="card-body">
+                    <p><strong>Rotary Power</strong></p>
+                </figcaption>
+            </figure>
+
+            <figure class="card">
+                <img src="images/brz.webp" alt="Subaru BRZ angled in controlled slide" loading="lazy" width="300" height="200">
+                <figcaption class="card-body">
+                    <p><strong>Subaru BRZ</strong> - Technical Precision</p>
+                </figcaption>
+            </figure>
+
+            <figure class="card">
+                <img src="images/mustang.webp" alt="Ford Mustang RTR throwing tire smoke" loading="lazy" width="300" height="200">
+                <figcaption class="card-body">
+                    <p><strong>Ford Mustang RTR</strong> - V8 Wall Tap</p>
+                </figcaption>
+            </figure>
+
+            <figure class="card">
+                <img src="images/bmw-m4.webp" alt="BMW M4 drift car cornering" loading="lazy" width="300" height="200">
+                <figcaption class="card-body">
+                    <p><strong>BMW M4</strong> - Euro Drift Spec</p>
+                </figcaption>
+            </figure>
+        </div>
+    </main>
+
+    <footer>
+
+<p>
+
+© <span id="year"></span> 🌸 Oludayo Oluboyede 🌸 Nigeria
+
+</p>
+
+<p id="lastModified"></p>
+
+</footer>
+
+<script>
+
+document.getElementById("year").textContent =
+new Date().getFullYear();
+
+document.getElementById("lastModified").textContent =
+`Last Modified: ${document.lastModified}`;
+
+</script>
+</body>
+</html>

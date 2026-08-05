@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn to Drift | Apex Drift Society</title>
+    <meta name="description" content="Comprehensive beginner guide to drifting physics, weight transfer, counter-steering, and essential safety equipment.">
+    <meta name="author" content="Oludayo Oluboyede">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script src="scripts/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo-text">Apex Drift <span>Society</span></a>
+            <button id="hamburger-btn" aria-label="Toggle Navigation Menu" aria-expanded="false">☰</button>
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="cars.html">Cars</a></li>
+                    <li><a href="learn.html" class="active">Learn</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="references.html">References</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h1 class="page-title">Learn the Art of Drifting</h1>
+
+        <div class="learn-grid">
+            <div class="learn-content">
+                <article class="card form-group">
+                    <div class="card-body">
+                        <h2 class="section-title">1. What is Drifting?</h2>
+                        <p>Drifting is a motorsport technique where the driver intentionally oversteers, causing a loss of traction in the rear wheels while maintaining vehicle control through the entire corner entry, apex, and exit.</p>
+                    </div>
+                </article>
+
+                <article class="card form-group">
+                    <div class="card-body">
+                        <h2 class="section-title">2. Weight Transfer Mechanics</h2>
+                        <p>Initiating a drift requires shifting the car's weight forward onto the front tires to unload the rear tires. Flicking the steering wheel while tapping the brakes or clutch (the "Feint Technique") unseats rear traction cleanly.</p>
+                    </div>
+                </article>
+
+                <article class="card form-group">
+                    <div class="card-body">
+                        <h2 class="section-title">3. Counter-Steering & Throttle Control</h2>
+                        <p>Once the rear steps out, rapidly counter-steer into the direction of the slide. Modulate the throttle precisely: too much power causes a spin-out, while releasing the gas completely instantly straightens the vehicle.</p>
+                    </div>
+                </article>
+
+                <article class="card form-group">
+                    <div class="card-body">
+                        <h2 class="section-title">4. Essential Safety Equipment</h2>
+                        <p>Safety is paramount. Professional drifting requires a certified roll cage, 5-point harness, Snell-rated helmet, fire-retardant suit, and a handheld fire extinguisher mounted in the cabin.</p>
+                    </div>
+                </article>
+            </div>
+
+            <aside class="card">
+                <div class="card-body">
+                    <h2 class="card-title">Beginner Tips</h2>
+                    <ul class="card-stats">
+                        <li>✔ Practice on closed tracks or skid pads.</li>
+                        <li>✔ Start in a low-power, rear-wheel-drive (RWD) vehicle.</li>
+                        <li>✔ Weld or install a Limited Slip Differential (LSD).</li>
+                        <li>✔ Keep tire pressure high in the rear for learning.</li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <footer>
+
+<p>
+
+© <span id="year"></span> 🌸 Oludayo Oluboyede 🌸 Nigeria
+
+</p>
+
+<p id="lastModified"></p>
+
+</footer>
+
+<script>
+
+document.getElementById("year").textContent =
+new Date().getFullYear();
+
+document.getElementById("lastModified").textContent =
+`Last Modified: ${document.lastModified}`;
+
+</script>
+</body>
+</html>

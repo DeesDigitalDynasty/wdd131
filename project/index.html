@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex Drift Society | Precision Meets Passion</title>
+    <meta name="description" content="Informational community portal dedicated to drifting culture, car specs, driving guides, and motorsport events.">
+    <meta name="author" content="Oludayo Oluboyede">
+    
+    <link rel="preload" href="images/hero-large.webp" as="image" type="image/webp" fetchpriority="high">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css" media="(min-width: 768px)">
+
+    <script src="scripts/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo-text">Apex Drift <span>Society</span></a>
+            <button id="hamburger-btn" aria-label="Toggle Navigation Menu" aria-expanded="false">☰</button>
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="cars.html">Cars</a></li>
+                    <li><a href="learn.html">Learn</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="references.html">References</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <img src="images/hero-large.webp" 
+     alt="Drift car sliding through a corner with smoke" class="hero-image" width="600" height="350" fetchpriority="high">
+     
+            <div class="hero-content">
+                <h1>Apex Drift Society</h1>
+                <p class="tagline">"Where Precision Meets Passion."</p>
+                <p>Welcome to the ultimate hub for drifting culture, vehicle engineering, and driving mastery.</p>
+                <br>
+                <a href="cars.html" class="btn-primary">Explore Drift Cars</a>
+            </div>
+        </section>
+
+        <h2 class="section-title">Why Drifting?</h2>
+        <p>Drifting combines controlled oversteer, vehicle dynamics, and driver skill into one of the world's most thrilling motorsports.</p>
+    </main>
+
+    <footer>
+
+<p>
+
+© <span id="year"></span> 🌸 Oludayo Oluboyede 🌸 Nigeria
+
+</p>
+
+<p id="lastModified"></p>
+
+</footer>
+
+<script>
+
+document.getElementById("year").textContent =
+new Date().getFullYear();
+
+document.getElementById("lastModified").textContent =
+`Last Modified: ${document.lastModified}`;
+
+</script>
+</body>
+</html>

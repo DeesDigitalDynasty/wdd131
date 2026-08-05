@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drift Cars | Apex Drift Society</title>
+    <meta name="description" content="Explore legendary drift car profiles, specs, power outputs, and favorite your top machines.">
+    <meta name="author" content="Oludayo Oluboyede">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script src="scripts/main.js" defer></script>
+    <script src="scripts/cars.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo-text">Apex Drift <span>Society</span></a>
+            <button id="hamburger-btn" aria-label="Toggle Navigation Menu" aria-expanded="false">☰</button>
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="cars.html" class="active">Cars</a></li>
+                    <li><a href="learn.html">Learn</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="references.html">References</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h1 class="page-title">Legendary Drift Cars</h1>
+
+        <div class="filter-container">
+            <label for="manufacturer-filter">Filter by Manufacturer:</label>
+            <select id="manufacturer-filter">
+                <option value="all">All Manufacturers</option>
+                <option value="Toyota">Toyota</option>
+                <option value="Nissan">Nissan</option>
+                <option value="Mazda">Mazda</option>
+                <option value="Subaru">Subaru</option>
+                <option value="Ford">Ford</option>
+                <option value="BMW">BMW</option>
+            </select>
+        </div>
+
+        <div id="car-container" class="grid-container">
+            <!-- Dynamic JavaScript Content Inserted Here -->
+        </div>
+    </main>
+
+    <footer>
+
+<p>
+
+© <span id="year"></span> 🌸 Oludayo Oluboyede 🌸 Nigeria
+
+</p>
+
+<p id="lastModified"></p>
+
+</footer>
+
+<script>
+
+document.getElementById("year").textContent =
+new Date().getFullYear();
+
+document.getElementById("lastModified").textContent =
+`Last Modified: ${document.lastModified}`;
+
+</script>
+</body>
+</html>

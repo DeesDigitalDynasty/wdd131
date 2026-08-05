@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>References & Credits | Apex Drift Society</title>
+    <meta name="description" content="Attribution page listing all image credits and technical sources used across Apex Drift Society.">
+    <meta name="author" content="Oludayo Oluboyede">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script src="scripts/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo-text">Apex Drift <span>Society</span></a>
+            <button id="hamburger-btn" aria-label="Toggle Navigation Menu" aria-expanded="false">☰</button>
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="cars.html">Cars</a></li>
+                    <li><a href="learn.html">Learn</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="references.html" class="active">References</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h1 class="page-title">References & Attributions</h1>
+
+        <article class="card card-body">
+            <h2 class="section-title">Image Assets</h2>
+            <ul class="card-stats">
+                <li><strong>Vehicle Photos & WebP Renders:</strong> Royalty-free automotive media from Unsplash & Pexels (Creative Commons License).</li>
+                <li><strong>Hero Banner:</strong> High-resolution motorsport action photographic capture.</li>
+            </ul>
+
+            <h2 class="section-title">Typography & Technical Standards</h2>
+            <ul class="card-stats">
+                <li><strong>Font Family:</strong> Outfit by Google Fonts (Open Font License).</li>
+                <li><strong>Course Framework:</strong> BYU Pathway Worldwide WDD 131 Dynamic Web Fundamentals.</li>
+            </ul>
+        </article>
+    </main>
+
+    <footer>
+
+<p>
+
+© <span id="year"></span> 🌸 Oludayo Oluboyede 🌸 Nigeria
+
+</p>
+
+<p id="lastModified"></p>
+
+</footer>
+
+<script>
+
+document.getElementById("year").textContent =
+new Date().getFullYear();
+
+document.getElementById("lastModified").textContent =
+`Last Modified: ${document.lastModified}`;
+
+</script>
+</body>
+</html>
