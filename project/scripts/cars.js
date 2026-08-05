@@ -1,8 +1,3 @@
-/* ==========================================================================
-   Apex Drift Society - Cars Page Script
-   Author: Oludayo Oluboyede
-   ========================================================================== */
-
 const cars = [
     { id: "supra-mk4", name: "Toyota Supra MK4", manufacturer: "Toyota", hp: 320, engine: "2JZ-GTE", country: "Japan", image: "images/supra.webp" },
     { id: "silvia-s15", name: "Nissan Silvia S15", manufacturer: "Nissan", hp: 250, engine: "SR20DET", country: "Japan", image: "images/silvia-s15.webp" },

@@ -1,8 +1,3 @@
-/* ==========================================================================
-   Apex Drift Society - Contact Script
-   Author: Oludayo Oluboyede
-   ========================================================================== */
-
 document.addEventListener("DOMContentLoaded", () => {
     const contactForm = document.querySelector("#contact-form");
     const feedbackDiv = document.querySelector("#form-feedback");

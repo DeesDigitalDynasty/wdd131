@@ -1,21 +1,11 @@
-/* ==========================================================================
-   Apex Drift Society - Base Styles (Mobile First)
-   Author: Oludayo Oluboyede
-   WCAG AAA Contrast Compliant
-   ========================================================================== */
-
 :root {
-    /* Deep Racing Green (8.8:1 contrast with white text - AAA) */
-    --primary-color: #084C37;     
     
-    /* Dark Charcoal (17.8:1 contrast with white text - AAA) */
+    --primary-color: #084C37;     
     --secondary-color: #111827;   
     
-    /* Deep Burnt Orange (7.1:1 contrast with white text - AAA) */
     --accent-color: #C2410C;      
     --accent-hover: #9A3412;
-    
-    /* High-contrast Gold for text highlights on dark green/charcoal (11:1+ AAA) */
+
     --accent-gold: #FFD700;       
 
     --light-bg: #F9FAFB;          
@@ -32,13 +22,18 @@
 }
 
 body {
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     background-color: var(--light-bg);
     color: var(--text-color);
     line-height: 1.6;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: attr(width) / attr(height);
 }
 
 /* Header & Navigation */
@@ -316,7 +311,7 @@ footer {
 }
 
 footer a {
-    color: var(--accent-gold); /* AAA Pass: 14.5:1 contrast ratio */
+    color: var(--accent-gold); 
     text-decoration: underline;
 }
 
@@ -325,6 +320,6 @@ footer a:hover {
 }
 
 #lastModified {
-    color: var(--accent-gold); /* AAA Pass: 14.5:1 contrast ratio */
+    color: var(--accent-gold);
     margin-top: 0.25rem;
 }

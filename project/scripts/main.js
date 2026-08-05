@@ -1,8 +1,3 @@
-/* ==========================================================================
-   Apex Drift Society - Main Script
-   Author: Oludayo Oluboyede
-   ========================================================================== */
-
 document.addEventListener("DOMContentLoaded", () => {
     // Hamburger Navigation Toggle
     const hamburgerBtn = document.querySelector("#hamburger-btn");
